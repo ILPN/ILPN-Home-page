@@ -7,7 +7,7 @@ import {FD_PETRI_NET} from 'ilpn-components';
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
     providers: [
-        {provide: APP_BASE_HREF, useValue: ''}
+        {provide: APP_BASE_HREF, useValue: '/ilovepetrinets/'}
     ]
 })
 export class AppComponent {
