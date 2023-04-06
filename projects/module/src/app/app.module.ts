@@ -4,12 +4,20 @@ import {AppComponent} from './app.component';
 import {IlpnComponentsModule} from 'ilpn-components';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {APP_BASE_HREF, PlatformLocation} from '@angular/common';
+import {AppRoutingModule} from './app-routing.module';
+import {HomeContentComponent} from './home-content/home-content.component';
+import {ArchiveContentComponent} from './archive-content/archive-content.component';
+import { RouteToAnchorConfigPipe } from './routing/route-to-anchor-config.pipe';
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        HomeContentComponent,
+        ArchiveContentComponent,
+        RouteToAnchorConfigPipe
     ],
     imports: [
+        AppRoutingModule,
         BrowserModule,
         IlpnComponentsModule,
         FlexLayoutModule,
