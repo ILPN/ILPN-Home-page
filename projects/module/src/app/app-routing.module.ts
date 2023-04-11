@@ -2,7 +2,7 @@ import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {HomeContentComponent} from './home-content/home-content.component';
 import {ArchiveContentComponent} from './archive-content/archive-content.component';
-import {ExternalRedirectHookGuard} from './routing/external-redirect-hook.guard';
+import {ExternalRedirectHookGuard} from "ilpn-components";
 
 
 const routes: Routes = [
