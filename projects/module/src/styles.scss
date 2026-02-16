@@ -42,5 +42,13 @@ html {
 body {
     margin: 0;
     padding: 50px;
-    font-family: "Courier New", sans-serif;
+    font-family: "Courier New", monospace, serif;
+}
+
+@font-face {
+    // BabelStone Pseudographica  v. 16.0.0 (2024-05-30)
+    // https://www.babelstone.co.uk/Fonts/Pseudographica.html
+    font-family: 'BabelStonePseudographica';
+    src:  url('fonts/BabelStonePseudographica.woff2') format('woff2'),
+          url('fonts/BabelStonePseudographica.woff') format('woff');
 }
