@@ -72,10 +72,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                            "browserTarget": "ilpn-module:build:production"
+                          "buildTarget": "ilpn-module:build:production"
                         },
                         "development": {
-                            "browserTarget": "ilpn-module:build:development"
+                          "buildTarget": "ilpn-module:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "ilpn-module:build"
+                      "buildTarget": "ilpn-module:build"
                     }
                 },
                 "test": {
@@ -142,6 +142,5 @@
                 }
             }
         }
-    },
-    "defaultProject": "ilpn-module"
+    }
 }
