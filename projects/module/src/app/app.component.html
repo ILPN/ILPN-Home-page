@@ -1,4 +1,7 @@
-<ilpn-page-layout [anchorConfig]="routingEvent$ | async | routeToAnchorConfig" [hrBeforeFooter]="false" [sourceLink]="'https://github.com/ILPN'">
+<ilpn-page-layout [anchorConfig]="routingEvent$ | async | routeToAnchorConfig"
+                  [hrBeforeFooter]="false"
+                  [footerPeople]="[{name:'Robin Bergenthum', link:'https://www.fernuni-hagen.de/mi/fakultaet/lehrende/bergenthum/index.shtml'},{name:'Jakub Kovář',link:'https://www.fernuni-hagen.de/se/team/jakub.kovar.shtml'}]"
+                  [sourceLink]="'https://github.com/ILPN'">
 
     <router-outlet></router-outlet>
 
